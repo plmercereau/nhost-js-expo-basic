@@ -29,3 +29,34 @@ I successfully used `@nhost/nhost-js` with version `0.3.3` before, which include
 
 The strange thing is that even if I now use the specific `"@nhost/nhost-js:0.3.3` version, which worked before, it would still fail with a similar error.
 
+If I put back exactly these into my yarn.lock (copied form the project where the nhost-js worked) then it works again:
+
+```
+"@nhost/hasura-auth-js@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@nhost/hasura-auth-js/-/hasura-auth-js-0.1.8.tgz#3dfef5e5828ceddd4687501168d5ac6865ebf64e"
+  integrity sha512-KTXNOgVFGZ+pChIon64113XC03hWFT0tHVvpKKr1zdBqHkXWgxqsbxsgxIPYaaFIG1yYenPdCBCRwV5srXVP4Q==
+  dependencies:
+    "@types/jwt-decode" "^2.2.1"
+    axios "^0.21.1"
+    jwt-decode "^2.2.0"
+    query-string "^7.0.1"
+
+"@nhost/hasura-storage-js@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@nhost/hasura-storage-js/-/hasura-storage-js-0.0.5.tgz#de085189c582960194c0cc0b2bc2f096affc2168"
+  integrity sha512-6XDm57bt0f2skeglinP4HCUsWbyipb+8MZLld5XPqxaNTM4lUs7QlY1VLOcukL91YnF6IC4kZYYD9ge+on6JUg==
+  dependencies:
+    axios "^0.21.1"
+
+"@nhost/nhost-js@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@nhost/nhost-js/-/nhost-js-0.3.3.tgz#48a251faade2aff1debb3ef7e3f60de2d06d3fdc"
+  integrity sha512-ika/YxdLOysDlb6JXFnhrCJmnasO8/tnICuDqVWmqU6JkrW5z+hEcbOImNzo7oRMLFVWM/FjeuQ+tFgE26KDDw==
+  dependencies:
+    "@nhost/hasura-auth-js" "^0.1.8"
+    "@nhost/hasura-storage-js" "^0.0.5"
+    axios "^0.23.0"
+    jwt-decode "^3.1.2"
+    query-string "^7.0.1"
+```
