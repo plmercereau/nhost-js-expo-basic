@@ -1,4 +1,4 @@
-When using `@nhost/nhost-js` in React Native Expo for web (expo version 5.0.3) starting the app fails with an error like this:
+When using `@nhost/nhost-js` in vanilla React Native Expo for web (generated using expo version 5.0.3) starting the app fails with an error like this:
 
 ```
 Web Bundling JavaScript [============================================================    ] 93%Using node to generate images. This is much slower than using native packages.
