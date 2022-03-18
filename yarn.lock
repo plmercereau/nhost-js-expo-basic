@@ -1260,29 +1260,29 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@nhost/hasura-auth-js@0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@nhost/hasura-auth-js/-/hasura-auth-js-0.1.14.tgz#98d19772a266766d5ced9fa59e39b57a14968576"
-  integrity sha512-QXPxpPIeqYDUTFmNpzSXyIyzVqc8JzNZiDuD2Uc6JHnEfz7othQQPzQXO6B0BaJAr+0BPhQXerUoDwLOUgG2ag==
+"@nhost/hasura-auth-js@0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@nhost/hasura-auth-js/-/hasura-auth-js-0.1.15.tgz#a481a2d21e6315b1ad59d5eec8ada77d6f784bb1"
+  integrity sha512-KIZW0gqTsuZz0HKEA4UZPolmHOn6RVVVwy2WwUn/amFREJfDN4O4JrzZjUQUYSLn9Dx7wOCIf2ij2tkXKhcLaQ==
   dependencies:
     axios "^0.25.0"
     jwt-decode "^3.1.2"
     query-string "^7.1.0"
 
-"@nhost/hasura-storage-js@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@nhost/hasura-storage-js/-/hasura-storage-js-0.0.11.tgz#b913553f19f5c67656dab2c3ff7737394aae6d31"
-  integrity sha512-EY0xbQNg/j45bLyJ+awnjXvyTBNTS668S+OqFnzHjKznSqOhHCLpyh2k0cI3vWTDHyuAbweP4ScvSipCJ0t9uA==
+"@nhost/hasura-storage-js@0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@nhost/hasura-storage-js/-/hasura-storage-js-0.0.12.tgz#ae01a7f69049fe0ee4ab746e3d567f369737b4b5"
+  integrity sha512-52SnmQkMqyTSdJlke/v3tysO4B6o8KVCDw5zz4BGz5CqCaS3yLPZolLr0788+HV5gQ2hzkU34KyhXrs4Sm5Yjw==
   dependencies:
     axios "^0.21.1"
 
-"@nhost/nhost-js@^0.3.11":
-  version "0.3.11"
-  resolved "https://registry.yarnpkg.com/@nhost/nhost-js/-/nhost-js-0.3.11.tgz#efa4eaa42bbc6f5587276d264b27ce8b8aae7f7f"
-  integrity sha512-D4pvXHlYW+fxwGxAyQGBWenuXAOpZI2ccErhBU9GaGgHXTxJoRKOhc29YJaZjCe1UdJhBTvJRBw5tZ19do3hZw==
+"@nhost/nhost-js@^0.3.12":
+  version "0.3.12"
+  resolved "https://registry.yarnpkg.com/@nhost/nhost-js/-/nhost-js-0.3.12.tgz#319b03a8835d1a2f6cf47f74f1e06fab7bd7b421"
+  integrity sha512-Rv3WIXg/fuGuk29FVufl1jdIR8mMtU51ZJ4bb5j4sJyjQRZrPpwvHD7YlwrV8WMkB2NQC1kNjL7spXhNXw9yHw==
   dependencies:
-    "@nhost/hasura-auth-js" "0.1.14"
-    "@nhost/hasura-storage-js" "0.0.11"
+    "@nhost/hasura-auth-js" "0.1.15"
+    "@nhost/hasura-storage-js" "0.0.12"
     axios "^0.23.0"
     jwt-decode "^3.1.2"
     query-string "^7.0.1"
