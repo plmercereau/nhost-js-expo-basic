@@ -1,3 +1,6 @@
+# Upgrading to 0.3.12 solved this
+
+
 When using `@nhost/nhost-js` in vanilla React Native Expo for web (generated using expo version 5.0.3) starting the app fails with an error like this:
 
 ```
