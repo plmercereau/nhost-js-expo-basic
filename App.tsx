@@ -34,16 +34,18 @@ export default function App() {
     })
     console.log(result)
   }
+  const signOut = async () => {
+    console.log('SIGN OUT')
+    const result = await nhost.auth.signOut()
+    console.log(result)
+  }
 
   return (
     <View style={styles.container}>
       <Text>Voila</Text>
-      <Button onPress={signUp} title='Sign up'>
-        Sign Up!
-      </Button>
-      <Button onPress={signIn} title='Sign In'>
-        Sign In!
-      </Button>
+      <Button onPress={signUp} title='Sign up' />
+      <Button onPress={signIn} title='Sign In' />
+      <Button onPress={signOut} title='Sign Out' />
       <StatusBar style='auto' />
     </View>
   )

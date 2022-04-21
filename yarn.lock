@@ -1260,21 +1260,21 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@nhost/core@^0.3.11":
-  version "0.3.11"
-  resolved "https://registry.yarnpkg.com/@nhost/core/-/core-0.3.11.tgz#13792afcab2787e44ec06f88e9987123ead885c8"
-  integrity sha512-GpCLVSaxRmzgQC6dPfzmSZ+GRS7lZto9nvhF0oaNHcr97+ynJ5iZLSDuqoU67UWOmXJF5a3a7ssieZWVcgVSoA==
+"@nhost/core@^0.3.12":
+  version "0.3.12"
+  resolved "https://registry.yarnpkg.com/@nhost/core/-/core-0.3.12.tgz#87ae95aacaebf6e16fc2efa6351e92e59b55a66e"
+  integrity sha512-0fjLZ9VXjNwJgsMVixFVTcjVG4pU4dgmliT9PCO0+kvBixBGKVx+UhTFbm3VitPcp+L6kCkFOulp3uG/PH0ldw==
   dependencies:
     axios "^0.25.0"
     js-cookie "^3.0.1"
     xstate "^4.30.5"
 
-"@nhost/hasura-auth-js@^1.0.11":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@nhost/hasura-auth-js/-/hasura-auth-js-1.0.12.tgz#03165ee24c6ecd7a8438e78dab68ceafab0cdd53"
-  integrity sha512-aqY5hqGp6tFtPY7OHO+Hpf5dk6djVb7zJp5D0IaZWJXZMogCEUKpqMsE3K6EuDFmH49pec8Uibio1bUAzdmVMQ==
+"@nhost/hasura-auth-js@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@nhost/hasura-auth-js/-/hasura-auth-js-1.0.13.tgz#51feae89944a2b4d7eb102d5c28362b6d56de310"
+  integrity sha512-SYxd1Vq4YW5QPnlyEf8oGyrPMbfa2uETTNSalBErdc65cRk1JLPiWmKREyp4AjpxxtUMljY3gLhfOyCGO6hLGA==
   dependencies:
-    "@nhost/core" "^0.3.11"
+    "@nhost/core" "^0.3.12"
 
 "@nhost/hasura-storage-js@^0.2.0":
   version "0.2.0"
@@ -1283,12 +1283,12 @@
   dependencies:
     axios "^0.21.1"
 
-"@nhost/nhost-js@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@nhost/nhost-js/-/nhost-js-1.1.0.tgz#0ff96c10cbc95ce247ce5a8cb8e7106322ac2bd6"
-  integrity sha512-897rwGFeXTySwhlsPbyURtMTNha88vVORVM5URlsfgNajK9mhmrANUj5tLQ8dlivomf8fWrbyW1ieTZdulDiCA==
+"@nhost/nhost-js@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@nhost/nhost-js/-/nhost-js-1.1.2.tgz#140165ee1043fccbd42303439b8e08bb2067ef9c"
+  integrity sha512-pP+BIIWrcrbp79hx/zPtHTBtytxIf8VX+87BLnhSm7dOCeIw8jDBHMOCOAUFlTm0HuqqHYA2hJxIk2fCcuFRtw==
   dependencies:
-    "@nhost/hasura-auth-js" "^1.0.11"
+    "@nhost/hasura-auth-js" "^1.0.13"
     "@nhost/hasura-storage-js" "^0.2.0"
     axios "^0.23.0"
     jwt-decode "^3.1.2"
