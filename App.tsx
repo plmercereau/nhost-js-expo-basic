@@ -5,7 +5,7 @@ import { NhostClient } from '@nhost/nhost-js'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
 const nhost = new NhostClient({
-  backendUrl: 'https://gfambeospnuqjpvlvtku.nhost.run',
+  backendUrl: 'https://xxx.nhost.run',
   clientStorageType: 'react-native',
   clientStorage: AsyncStorage,
   refreshIntervalTime: 10,
