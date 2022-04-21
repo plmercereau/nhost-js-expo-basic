@@ -4,6 +4,9 @@ import { StyleSheet, Text, View, Button } from 'react-native'
 import { NhostClient } from '@nhost/nhost-js'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
+const email = 'react@native.com'
+const password = 'MyBirthDate'
+
 const nhost = new NhostClient({
   backendUrl: 'https://xxx.nhost.run',
   clientStorageType: 'react-native',
@@ -21,16 +24,16 @@ export default function App() {
   const signUp = async () => {
     console.log('SIGNUP')
     const result = await nhost.auth.signUp({
-      email: 'pilou@pilou.com',
-      password: 'Pilette1',
+      email,
+      password,
     })
     console.log(result)
   }
   const signIn = async () => {
     console.log('SIGN IN')
     const result = await nhost.auth.signIn({
-      email: 'pilou@pilou.com',
-      password: 'Pilette1',
+      email,
+      password,
     })
     console.log(result)
   }
